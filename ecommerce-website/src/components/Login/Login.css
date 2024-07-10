@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;300;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+   
+}
+
+
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+#email-auth
+{
+    padding: 0.5rem;
+    width: 30%;
+}
+#password-auth
+{
+    padding: 0.5rem;
+    width: 30%;
+}
+.login-button
+{
+    padding: 0.2rem ;
+    width:30%;
+    background-color: #7b9b71;
+    border: none;
+    border-radius: 0.3rem;
+    cursor:pointer
+}
+
+.sign-up-link
+{
+    color: #7b9b71;
+
+}
+.guest-credentials-link
+{
+  color:black;
+  padding: 0.8rem;
+  border: 2px solid #7b9b71;
+  
+}
+.guest-credentials-link:hover{
+    color: white;
+    background-color: #7b9b71;
+    cursor: pointer;
+}
+.sign-up-text
+{
+    color: black;
+}

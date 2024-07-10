@@ -1,0 +1,56 @@
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0.9rem;
+}
+.product-image {
+    height: 11rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.product-price
+{
+    margin-left: auto;
+    color:#3b5b32;
+} 
+.add-to-cart-button
+{
+    background: #4f7942;
+    border-radius:0.3rem;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+}
+.brand-name
+{
+color: black;
+
+
+}
+
+.product-image-container
+{
+   position: relative;
+   
+}
+.wishlist-heart
+{
+    position: absolute;
+    right: 0.6rem;
+    top:0.6rem;
+    background-color:white ;
+    padding: 0.3rem;
+    border-radius: 50%;    
+}
+.wishlist-heart-solid {
+    position: absolute;
+    right: 0.6rem;
+    top: 0.6rem;
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 50%;
+    color:#4f7942;
+}
